@@ -5,9 +5,7 @@ function describeValue(value) {
   return type + " | " + truthiness;
 }
 
-describeValue(42); // "number | truthy"
-describeValue("hello"); // "string | truthy"
-describeValue(null); // "object | falsy"
-describeValue(undefined); // "undefined | falsy"
-describeValue(false); // "boolean | falsy"
-describeValue(0); // "number | falsy"
+// console.log(describeValue(null));"
+// console.log(describeValue(undefined));
+// console.log(describeValue("suman"));
+// console.log(describeValue(0));
